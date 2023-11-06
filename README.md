@@ -172,6 +172,35 @@ For the human gene selected in the previous question, what is the percent identi
 
 ## Step 6 - Investigate the gene
 
+Head to https://www.uniprot.org/ - the catalog where I obtained the gene sequences on chromosome #1. In the search bar, search for you gene in the format XXXX_Human
+
+# LQ 7
+
+Provide the following details about your gene
+
+1. Protein name (listed under protein)
+2. Function of the gene (copy or summarize the function)
+3. Expression information. Report one tissue or organ where your gene has been expressed
+4. Structural information. Report one feature (family or domain) in your protein
+5. Disease & Variants. In this section you will find information about your gene from experiments or genomic data. Name one type of "Disease & Variant" category found in your gene (see below)
+
+The Uniprot database contains curated (manually input) and automated data about genes. The data falls into the categories below: 
+
+**Involvement in disease**	Description of the disease(s) associated with the deficiency of a protein
+**Natural variant**	Natural variants of the protein that are associated with one of the diseases listed above
+**Allergenic properties**	Information relevant to allergenic proteins
+**Biotechnological use**	Use of a specific protein in the biotechnological industry
+**Toxic dose**	Lethal, paralytic, or effect dose, or lethal concentration of a toxin
+**Pharmaceutical use**	Description of the use of a protein as a pharmaceutical drug
+**Disruption phenotype**	Description of the effects caused by the disruption of a protein-encoding gene
+**Mutagenesis**	Site which has been experimentally altered by mutagenesis
+
+
+
+
+
+
+
 
 
 
