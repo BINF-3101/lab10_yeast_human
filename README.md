@@ -2,17 +2,49 @@
 
 This week we are going to find orthologs between genes in the human genome and your yeast genome. We will use blast to do search the human chromosome 1. 
 
+# Outline
+
+(Step 1 - Folder setup)[#step-1---folder-setup]
+
+(LQ 1)[#lq-1]
+
+(LQ 2)[#lq-2]
+
+(Step 3 - Blastp)[#step-3---run-blastp]
+
+(Step 4 - Analyse Results)[#step-4---compare-human-and-yeast-genes]
+
+(LQ 4)[#lq-4]
+
+(Step 5 - Similarity)[#step-5---high-similarity]
+
+(LQ 5)[#lq-5]
+
+(LQ 6)[#lq-6]
+
+(Step 6 - Gene)[#step-6---investigate-the-gene]
+
+(LQ 7)[#lq-7]
+
+&ensp;
+
 ## Step 1 - Folder setup
+
+&ensp;
 
 ### Step 1a - Create lab 10 folder
 
 From your home directory you will need to create a new folder for lab 10. 
 
+&ensp;
+
 ### Step 1b - Copy the "clear" protein sequences
 
 You will need to copy the "clear" version of your protein sequences. Reminder the "clear" version has removed all the duplicate sequences. 
 
-The file name should be "clear_SRR00000.prot.fasta" and it is in several of the folders we have created this semester. 
+The file name should be "clear_SRR00000.prot.fasta," and it is in several of the folders we have created this semester. 
+
+&ensp;
 
 ### Step 1c - Copy human chromosome 1
 
@@ -24,14 +56,19 @@ The directory is ```/projects/class/binf3101_001/human_chr/chr1.fasta```. Copy t
 - clear_SRR00000.prot.fasta
 - chr1.fasta
 
+&ensp;
 
 # LQ 1
 
 How many genes are annotated on human chromosome #1?
 
+&ensp;
+
 # LQ 2
 
 How many genes are annotated in your yeast genome?
+
+&ensp;
 
 ## Step 2 - Create a blast Database
 
@@ -64,6 +101,8 @@ You should now see _a lot_ of database files such as
 ```chr1.fasta.pin```
 ```chr1.fasta.pto```
 
+&ensp;
+
 ## Step 3 - Run blastp
 
 We will use blastp to search against human chromosome 1. We will use several blastp options 
@@ -78,11 +117,16 @@ Create your ```blastp``` command and execute it.
 
 **This may take several minutes**
 
+&ensp;
+
 # LQ 3
 What **percent** of your yeast sequences have a high similarity to a gene on chromosome 1 in humans?
 
+&ensp;
 
-## Step 4 - Compare human and yest genes
+## Step 4 - Compare human and yeast genes
+
+&ensp;
 
 ## Step 4a - Unique human genes
 
@@ -91,6 +135,8 @@ It is possible that a single human gene could map to two unique fungal genes via
 There are many ways we could calculate this, but we will use the built-in capabilities in the command line 
 
 To get the total number of human genes will string together several commands. 
+
+&ensp;
 
 ### Command 1 - extract the 2nd column
 
@@ -132,8 +178,12 @@ To put them all together we use
 cut -f2 youroutput.out | sort | uniq | wc -l
 ```
 
+&ensp;
+
 # LQ 4
 What **percent** of the genes on chromosome 1 have a highly similar sequence in your yeast genome?
+
+&ensp;
 
 ## Step 5 - High similarity
 
@@ -164,15 +214,23 @@ sort -g -k11 | head -10
 
 Pick a gene from that top 10. 
 
+&ensp;
+
 # LQ 5
 What is the name of that gene (column 2. Should be in the format XXXX_HUMAN)
+
+&ensp;
 
 # LQ 6
 For the human gene selected in the previous question, what is the percent identity between the human and yeast gene (column 3)
 
+&ensp;
+
 ## Step 6 - Investigate the gene
 
 Head to https://www.uniprot.org/ - the catalog where I obtained the gene sequences on chromosome #1. In the search bar, search for you gene in the format XXXX_Human
+
+&ensp;
 
 # LQ 7
 
