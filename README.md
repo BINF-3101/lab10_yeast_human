@@ -245,12 +245,19 @@ Provide the following details about your gene
 The Uniprot database contains curated (manually input) and automated data about genes. The data falls into the categories below: 
 
 **Involvement in disease**	Description of the disease(s) associated with the deficiency of a protein
+
 **Natural variant**	Natural variants of the protein that are associated with one of the diseases listed above
+
 **Allergenic properties**	Information relevant to allergenic proteins
+
 **Biotechnological use**	Use of a specific protein in the biotechnological industry
+
 **Toxic dose**	Lethal, paralytic, or effect dose, or lethal concentration of a toxin
+
 **Pharmaceutical use**	Description of the use of a protein as a pharmaceutical drug
+
 **Disruption phenotype**	Description of the effects caused by the disruption of a protein-encoding gene
+
 **Mutagenesis**	Site which has been experimentally altered by mutagenesis
 
 
