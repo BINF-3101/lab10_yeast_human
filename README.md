@@ -1,4 +1,4 @@
-# lab10_yeast_human
+# lab11_yeast_human
 
 This week we are going to find orthologs between genes in the human genome and your yeast genome. We will use blast to do search the human chromosome 1. 
 
