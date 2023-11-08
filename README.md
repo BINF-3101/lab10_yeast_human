@@ -4,27 +4,27 @@ This week we are going to find orthologs between genes in the human genome and y
 
 # Outline
 
-(Step 1 - Folder setup)[#step-1---folder-setup]
+[Step 1 - Folder setup](#step-1---folder-setup)
 
-(LQ 1)[#lq-1]
+[LQ 1](#lq-1)
 
-(LQ 2)[#lq-2]
+[LQ 2](#lq-2)
 
-(Step 3 - Blastp)[#step-3---run-blastp]
+[Step 3 - Blastp](#step-3---run-blastp)
 
-(Step 4 - Analyse Results)[#step-4---compare-human-and-yeast-genes]
+[Step 4 - Analyse Results](#step-4---compare-human-and-yeast-genes)
 
-(LQ 4)[#lq-4]
+[LQ 4](#lq-4)
 
-(Step 5 - Similarity)[#step-5---high-similarity]
+[Step 5 - Similarity](#step-5---high-similarity)
 
-(LQ 5)[#lq-5]
+[LQ 5](#lq-5)
 
-(LQ 6)[#lq-6]
+[LQ 6](#lq-6)
 
-(Step 6 - Gene)[#step-6---investigate-the-gene]
+[Step 6 - Gene](#step-6---investigate-the-gene)
 
-(LQ 7)[#lq-7]
+[LQ 7](#lq-7)
 
 &ensp;
 
