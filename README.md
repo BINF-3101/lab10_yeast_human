@@ -32,9 +32,9 @@ This week we are going to find orthologs between genes in the human genome and y
 
 &ensp;
 
-### Step 1a - Create lab 10 folder
+### Step 1a - Create lab 11 folder
 
-From your home directory you will need to create a new folder for lab 10. 
+From your home directory you will need to create a new folder for lab 11. 
 
 &ensp;
 
@@ -50,7 +50,7 @@ The file name should be "clear_SRR00000.prot.fasta," and it is in several of the
 
 There is a copy of all the proteins in human chromosome #1 in the class folder. 
 
-The directory is ```/projects/class/binf3101_001/human_chr/chr1.fasta```. Copy this file into your new Lab 10 folder
+The directory is ```/projects/class/binf3101_001/human_chr/chr1.fasta```. Copy this file into your new lab 11 folder
 
 **Your folder should now contain the following files**
 - clear_SRR00000.prot.fasta
