@@ -76,7 +76,7 @@ We have been using fasta files as both our query and our subject in previous bla
 
 To make a blast database we will use the command ```makeblastdb```
 
-There are two required parts of the command. There is the input_file and the input_type. 
+There are two required parts of the command. There is the input_file and the dbtype. 
 
 There are two possible input types: ```nucl``` for nucleotides and ```prot``` for proteins. 
 
@@ -86,7 +86,7 @@ module load blast
 makeblastdb -h
 
 USAGE
-  makeblastdb [-h] [-help] [-in input_file] [-input_type type]
+  makeblastdb [-h] [-help] [-in input_file] [-dbype type]
 ...
 ```
 
