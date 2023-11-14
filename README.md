@@ -209,7 +209,7 @@ To sort _numerically_ we would end up with
 To find the 10 genes with the lowest p-value in the results file we would use
 
 ```bash
-sort -g -k11 | head -10
+sort -g -k11 youroutput.txt | head -10
 ```
 
 Pick a gene from that top 10. 
